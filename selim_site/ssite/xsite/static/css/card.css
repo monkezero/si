@@ -1,0 +1,16 @@
+.cardimg{
+    width: 230px;
+    height: 360px;
+    border-radius: 15px;
+}
+
+.card{
+    list-style: none;
+    border: solid black;
+    background-color: black;
+    width: 250px;
+    height: 500px;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
