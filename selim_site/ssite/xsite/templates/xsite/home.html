@@ -90,11 +90,16 @@
             <br>
             <li>
               <div class="card bg-dark text-white" style="width:250px;box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;">
-                <img class="card-img-top" style="height: 340px;border-radius: 8px;" src="{% static 'img/d2.jpg'%}" alt="Card image">
+                <div class="img-container">
+                  <img class="card-img-top" style="height: 340px;width: 250px;border-radius: 8px;" src="{% static 'img/d2.jpg'%}" alt="Card image">
+                  <p class="overlay disabled">aciklama</p>
+              </div>
                 <div class="card-body">
                   <h5 class="card-title">batman2</h5>
-                  <p class="card-text">Some example text.</p>
-                  <a href="#" class="btn btn-secondary" style="background-color: #222;border: #222;box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;">See Profile</a>
+                  <div class="price-and-button">
+                    <p class="card-text">Fiyat</p>
+                    <button class="css-scan-edited-element-0" style="height: 30px; width: 135px;"><i style="margin-right: 5px;" class="bi bi-bag"></i>sepete ekle</button>
+                </div>
                 </div>
               </div>
             </li>
