@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import xsite, Category
 
-# Register your models here.
+admin.site.register(xsite)
+admin.site.register(Category)

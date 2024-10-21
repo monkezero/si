@@ -16,8 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from . import views  # Görünümlerinizi içe aktarın
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('user/', include('blog.urls')),
-] 
+    path('', views.home, name='home'),  # Ana sayfa için görünüm
+    path('cart/', views.cart, name='cart'),
+    path('checkout', views.checkout, name='checkout'),
+]
